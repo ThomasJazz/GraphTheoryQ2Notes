@@ -1,4 +1,4 @@
-# Quiz 2 Study Guide
+# Graph Theory, Quiz 2 Study Guide
 
 ### Layering Partition
 * You are given an undirected graph `G` and some start vertex `s`. Make a layering partition of `G` starting in `s`.
