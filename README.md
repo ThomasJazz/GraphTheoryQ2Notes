@@ -46,3 +46,4 @@
 ### Johnson's Algorithm
 * You are given a directed weighted graph `G` with potentially negative edge weights. Update the edge weights as done in Johnson’s algorithm such that each edge weight is non-negative.
     * ![](CS428_Quiz2_Johnsons_Alg_1_50pct.png)
+    * ![](CS428_Quiz2_Johnsons_Alg_2.png)
