@@ -16,8 +16,7 @@
     * **Twins**: Vertices `u`, `v` such that (`N` = Neighborhood):
         * `N(u) = N(v)`     (false twins)
         * `N[u] = N[v]`     (true twins)
-
-![](CS428_Quiz2_Partition_refinement_1_75pct.png)
+![](CS428_Quiz2_Partition_refinement_1.png)
 
 ### Eulerian Path/Cycle
 * You are given an undirected graph `G`. Find an **Eulerian cycle/path** in `G`.
@@ -26,7 +25,7 @@
         * ![](CS428_Quiz2_Eulerian_Cycle.png)
     * A graph has an **Eulerian path** if and only if it is connected and has at most two degrees with an odd degree
         * Finite graph which visits every edge exactly once
-        
+    
 ### Topological Order of DAG
 * You are given a directed acyclic graph `G`. Find a **topological order** of the vertices in `G`.
     * **Topological ordering:** A linear ordering of vertices such that for every directed edge `(u,v)`, vertex `u` comes before `v` in the ordering
@@ -46,4 +45,4 @@
 ### Johnson's Algorithm
 * You are given a directed weighted graph `G` with potentially negative edge weights. Update the edge weights as done in Johnson’s algorithm such that each edge weight is non-negative.
     * ![](CS428_Quiz2_Johnsons_Alg_1_50pct.png)
-    * ![](CS428_Quiz2_Johnsons_Alg_2.png)
+    * ![](CS428_Quiz2_Johnsons_Alg_2_60pct.png)
