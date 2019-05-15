@@ -1,6 +1,5 @@
 # Quiz 2 Study Guide
 
-## Confident
 ### Layering Partition
 * You are given an undirected graph `G` and some start vertex `s`. Make a layering partition of `G` starting in `s`.
     * Two vertices `u` and `v` are in the same **cluster** if
@@ -27,9 +26,7 @@
         * ![](CS428_Quiz2_Eulerian_Cycle.png)
     * A graph has an **Eulerian path** if and only if it is connected and has at most two degrees with an odd degree
         * Finite graph which visits every edge exactly once
-    
-
-## Kinda Comfortable
+        
 ### Topological Order of DAG
 * You are given a directed acyclic graph `G`. Find a **topological order** of the vertices in `G`.
     * **Topological ordering:** A linear ordering of vertices such that for every directed edge `(u,v)`, vertex `u` comes before `v` in the ordering
