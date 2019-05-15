@@ -10,7 +10,7 @@
 
 ### Floyd-Warshall Algorithm
 * You are given a directed weighted graph `G` with potentially negative edge weights and a distance matrix `M`<sub>`k`</sub>. `M`<sub>`k`</sub> contains the distances `d`<sup>`(k)`</sup><sub>`ij`</sub> computed by the Floyd-Warshall algorithm after `k` iterations. Compute `M`<sub>`k+1`</sub>, i.e., make one iteration of the algorithm and update the matrix as done by the algorithm.
-    * ![](smaller-versions\CS428_Quiz2_Floyd-Warshall_75pct.png)
+    * ![](CS428_Quiz2_Floyd-Warshall_75pct.png)
 
 ### Partition Refinement to Find Twins
 * You are given an undirected graph `G`. Use a partition refinement to determine all twins `G`.
@@ -18,7 +18,7 @@
         * `N(u) = N(v)`     (false twins)
         * `N[u] = N[v]`     (true twins)
 
-![](smaller-versions\CS428_Quiz2_Partition_refinement_1_75pct.png)
+![](CS428_Quiz2_Partition_refinement_1_75pct.png)
 
 ### Eulerian Path/Cycle
 * You are given an undirected graph `G`. Find an **Eulerian cycle/path** in `G`.
@@ -48,4 +48,4 @@
 
 ### Johnson's Algorithm
 * You are given a directed weighted graph `G` with potentially negative edge weights. Update the edge weights as done in Johnson’s algorithm such that each edge weight is non-negative.
-    * ![](smaller-versions\CS428_Quiz2_Johnsons_Alg_1_50pct.png)
+    * ![](CS428_Quiz2_Johnsons_Alg_1_50pct.png)
